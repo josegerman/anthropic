@@ -362,6 +362,9 @@ def main():
                     )
 
                     audio_file_added = True
+
+            st.divider()
+            st.write("[Dev: JoseG]")
            
         # Chat input
         if prompt := st.chat_input("Hi! Ask me anything...") or audio_prompt or audio_file_added:
